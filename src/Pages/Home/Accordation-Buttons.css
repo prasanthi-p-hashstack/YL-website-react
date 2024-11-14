@@ -1,0 +1,167 @@
+.iot-container {
+    display: flex;
+    justify-content: space-between;
+    height: 550px;
+    width: 100%;
+   margin-top:80px;
+   margin-bottom:80px;
+  
+  }
+  
+  .button-container,
+  .imageiot {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;    
+    width: 40%;
+    margin-top: 30px;
+  }
+  
+  .nav-button {
+    max-width: 350px;
+    position: relative;
+    font-family: Rubik, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #939393;
+    text-align: left;
+    cursor: pointer;
+    background-color: #fffcf5;
+    border-style: border-box;
+    overflow: hidden;
+    padding: 30px 10px 0px 40px;
+    transition: height 0.5s;
+  }
+  
+  .nav-active {
+    background-color: #ffffff;
+    border-bottom: 5px solid #fcc22c;
+    color: #1d4452;
+    font-weight: 600 !important;
+  }
+  
+  .arrow-icon {
+   position: absolute;
+   right:5%;
+        display: none;
+  }
+  
+  .arrow-icon.show {
+    display: inline;
+  }
+  
+  .text-iot {
+    background-color: #ffffff;
+    font-family: Rubik, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #2e2e37;
+    padding: 20px 20px 40px 0px;
+  }
+  
+  .imageiot {
+    max-width: 60%;
+    margin-left: 20px;
+    overflow: hidden;
+    
+  }
+  
+  .imageiot img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    display: none;
+    margin-top: 25px;
+  }
+  
+  .imageiot img.show {
+    display: block;
+  }
+  
+  @media (max-width:1600px){
+    .button-container {
+      width: 45%;
+     }
+    .imageiot {
+      max-width: 100%;
+      margin-left: 40px;
+    }
+    .imageiot img {
+      margin-top: 40px;
+    }
+    
+  }
+  @media (max-width:1200px){
+    .imageiot {
+        max-width: 65%;
+        margin-left: 20px;
+        overflow: hidden;
+        padding-right:50px;
+        margin-top:20px;
+        
+      }
+      .imageiot img {
+        margin-top: 20px;
+      }
+      .nav-button {
+        max-width: 350px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        padding: 20px 10px 0px 40px;
+       
+      }
+      .text-iot {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+      }
+      .nav-button {
+        height: 70px;
+      }
+      
+  }
+  @media (max-width:1000px){
+    
+      .nav-button {
+        max-width: 350px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        padding: 20px 10px 0px 40px;
+       
+      }
+      .imageiot img {
+        margin-top: 30px;
+      }
+      .text-iot {
+         padding: 20px 0px 40px 0px;
+      }     
+      
+  }
+  /* iot mobile styles */
+ 
+  .accordation-mobile {
+    display: none;
+    /* Center the content horizontally */
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .accordation-mobile {
+        display: flex;
+        width: 100%;
+        margin: 80px auto;
+    }
+
+  .iot-container{
+    display:none;
+  }
+ }

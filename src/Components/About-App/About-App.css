@@ -1,0 +1,168 @@
+.about-app-outer-conatiner{
+    background-color: #fafafa;
+    padding:30px 0 80px;
+}
+.about-app-content-container{
+    display:flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.about-app-left-container{
+  width:50%;
+}
+
+.about-app-left-container-content{
+    margin-bottom:50px;
+}
+.about-app-content-heading{
+font-family: Rubik;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.33px;
+letter-spacing: 0.05em;
+text-align: left;
+color:#8C9DA3;
+text-transform: uppercase;
+}
+.about-app-content-para{
+    font-family: Rubik;
+font-size: 22px;
+font-weight: 300;
+line-height: 36px;
+text-align: left;
+color:#051B23;
+}
+.about-app-rating-number{
+    font-family: Rubik;
+font-size: 50px;
+font-weight: 500;
+line-height: 59.25px;
+letter-spacing: 0.05em;
+text-align: left;
+color:#8C9DA3;
+}
+
+.about-app-store-link
+{
+    font-family: Rubik;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.59px;
+letter-spacing: 0.05em;
+text-align: center;
+color:#FFC629;
+text-decoration: none;
+background-color: #051B23;
+padding:10px 20px;
+border-radius: 4px;
+}
+.about-app-apps-images{
+    display:flex;
+    gap:40px;
+    margin-bottom:50px;
+}
+
+@media (max-width:1600px){
+    .about-app-content-heading{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .about-app-content-para{
+            font-size: 18px;
+            line-height: 28px;
+    }
+    
+      
+}
+.about-app-right-container{
+  display:grid;
+  justify-content: end;
+  gap:30px;
+}
+.about-app-ratings{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:30px;
+}
+.about-app-ratings img{
+    height:40px;
+}
+.about-app-store-mob{
+    display:none;
+}
+@media (max-width:1600px){
+    .about-app-right-container{
+        gap:20px;
+    }
+.about-app-right-image1{
+    height:200px;
+}
+.about-app-rating-number{
+    font-size:40px;
+}
+.about-app-ratings img{
+    height:30px;
+}
+.about-app-right-stars-rating-lines{
+    height:115px;
+}
+.about-app-ratings{
+    gap:80px;
+}
+
+}
+@media(max-width:767px){
+
+    .about-app-content-container{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .about-app-left-container{
+        width:100%;
+      }
+      .about-app-left-container-content{
+        margin-bottom:20px;
+    }
+    .about-app-store-mob{
+        display:block;
+        margin-top:20px;
+        
+    }
+    
+    .about-app-apps-images img{
+        max-height:70px;
+        max-width:150px;
+    }
+    .about-app-apps-button-container-desktop{
+        display:none;
+    }
+    .about-app-content-heading{
+        font-size:14px;
+    }
+    .about-app-content-para{
+        font-size:16px;
+    }
+    .about-app-right-image1{
+        height:auto;;
+        max-width:400px;
+    }
+    .about-app-rating-number{
+        font-size:40px;
+    }
+    .about-app-ratings img{
+
+        height:30px;
+    }
+    .about-app-right-stars-rating-lines{
+        max-width:400px;
+        height:auto;
+    }
+    .about-app-ratings{
+        display:flex;
+        justify-content: start;
+        gap:20px;
+    }
+
+}

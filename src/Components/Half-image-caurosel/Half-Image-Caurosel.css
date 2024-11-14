@@ -1,0 +1,60 @@
+
+.half-caurosel-container {
+  overflow: auto; /* Enable scrolling */
+  display: flex; /* Display images in a row */
+  scroll-snap-type: x mandatory; /* Enable scroll snapping */
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+  
+}
+
+.half-image-caurosel-images {
+  max-width: 360px; /* Set maximum width for images */
+  margin-right: 40px; /* Margin between images */
+  flex-shrink: 0; /* Prevent images from shrinking */
+ 
+}
+/* Hide scrollbar for WebKit-based browsers (Chrome, Safari) */
+.half-caurosel-container::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-arrows {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1;
+  margin-bottom: 30px;
+  gap: 15px;
+  margin-right:20px;
+  cursor:pointer;
+}
+
+.left-arrow, .right-arrow {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.8;
+}
+
+.left-arrow:hover, .right-arrow:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+
+@media (max-width: 1600px) {
+  .half-image-caurosel-images {
+      max-width: 260px;
+  }
+}
+@media (max-width: 1200px) {
+  .half-image-caurosel-images {
+      max-width: 240px; 
+  }
+}
+@media (max-width: 767px) {
+  .half-image-caurosel-images {
+      max-width: 220px; 
+  }
+  .carousel-arrows {
+       margin-bottom: 18px;
+  }
+}

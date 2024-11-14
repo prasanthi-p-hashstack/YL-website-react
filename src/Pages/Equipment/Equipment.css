@@ -1,0 +1,271 @@
+.buy-sell-page-container {
+    margin-top: 60px;
+}
+
+.buy-sell-intro-heading {
+    font-family: Rubik;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+    color: #FCC22C;
+    margin-bottom:10px;
+
+}
+
+.buy-sell-intro-heading span {
+    color: #C0CDD1;
+}
+
+.buy-sell-intro-content {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    color: #051B23;
+
+}
+
+.buy-sell-intro-para12 {
+    font-weight: 300;
+    width:55%;
+}
+
+.buy-sell-intro-button-container {
+    display: flex;
+    gap: 30px;
+    margin: 20px 0 50px;
+}
+
+.buy-sell-intro-button {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px #00000014;
+    border-radius: 4px;
+
+}
+
+.buy-sell-intro-button button {
+    border: none;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.33px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #051B23;
+    background-color: #FFC629;
+    height: 56px;
+    width: 240px;
+    text-transform: uppercase;
+    border-radius: 0 4px 4px 0;
+}
+
+.buy-sell-intro-button img {
+    width: 56px;
+    background-color: #ffffff;
+    border-radius: 4px 0 0 4px;
+}
+
+@media(max-width:1600px) {
+    .buy-sell-intro-heading {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    
+    .buy-sell-intro-content {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .buy-sell-intro-button button {
+        font-size: 15px;
+        line-height: 18px;
+        width: 220px;
+        height:46px;
+    }
+    .buy-sell-intro-button img {
+        width:46px;
+    }
+}
+@media(max-width:1025px) {
+    .buy-sell-page-container {
+        margin-top: 40px;
+    }
+    .buy-sell-intro-heading {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .buy-sell-intro-content {
+        font-size: 16px;
+        }
+        .buy-sell-intro-para12 {
+            font-weight: 300;
+            width:100%;
+        }
+    .buy-sell-intro-button button {
+        font-size: 14px;
+         line-height: 16px;     
+    }
+   
+}
+@media(max-width:767px) {
+    .buy-sell-page-container {
+        margin-top: 40px;
+    }
+    .buy-sell-intro-heading {
+        font-size: 38px;
+        line-height: 38px;
+    }
+    .buy-sell-intro-button-container {
+        display:grid;
+    }
+    .buy-sell-intro-button{
+        width:fit-content;
+    }
+}
+.buy-sell-half-image-caurosel{
+    background-color: #FAFAFA;
+    padding:50px 0;
+}
+/* content2 */
+.buy-sell-page-content2-fullwidth-container{
+    background-color: #ffffff;
+    position:relative;
+   
+
+}
+.background-vector2{
+    position: absolute;
+    top:0;
+    right:0;
+   height:300px;
+   
+}
+
+.buy-sell-content2-container{
+    padding-top:60px;
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    
+}
+.buy-sell-content2-left-container{
+    width:50%;
+}
+.buy-sell-content2-right-container{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    margin-top:40px;
+    box-sizing: border-box;
+}
+.buy-sell-content2-right-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* This pushes the content to the bottom of the container */
+    align-items: flex-start; /* Ensures the text is left-aligned */
+}
+.buy-sell-content2-left-heading{
+    font-family: Rubik;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.33px;
+letter-spacing: 0.05em;
+text-align: left;
+color:#1D4452;
+text-transform: uppercase;
+margin-bottom:20px;
+}
+.buy-sell-content2-left-para{
+font-family: Rubik;
+font-size: 56px;
+font-weight: 300;
+line-height: 58px;
+text-align: left;
+color:#1D4452;
+
+}
+
+.buy-sell-content2-right-para{
+font-family: Rubik;
+font-size: 22px;
+font-weight: 300;
+line-height: 36px;
+text-align: left;
+color:#051B23;
+box-sizing: border-box;
+}
+.buy-sell-page-carousel2{
+    margin-bottom:100px;
+}
+@media(max-width:1600px){
+    .buy-sell-content2-left-heading{
+        font-size: 16px;
+    }
+    .buy-sell-content2-left-para{
+        font-size: 45px;
+        line-height: 48px;;
+       max-width:410px;
+    }
+    .buy-sell-content2-right-para{
+        font-size:20px;
+        line-height:30px;
+       
+    }
+}
+@media(max-width:1200px){
+    .buy-sell-content2-right-para{
+      padding-right:60px;
+    }
+    .buy-sell-content2-right-para{
+        font-size:18px;
+        line-height:30px;
+       
+    }
+}
+
+@media(max-width:1100px){
+    .buy-sell-content2-right-para{
+      padding-right:80px;
+    }
+    .buy-sell-content2-left-para{
+        font-size: 40px;
+        line-height: 45px;;
+      
+    }
+
+}
+@media(max-width:767px){
+    .buy-sell-content2-container{
+        padding-top:60px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:100%;
+        
+    }
+    .buy-sell-content2-left-container{
+        width:100%;
+    }
+    .buy-sell-content2-right-container{
+        width:100%;
+       
+    }
+    .buy-sell-content2-left-para{
+         max-width:90%;
+    }
+    .buy-sell-content2-right-para{
+        padding-right:20px;
+      }
+      .background-vector2{
+        position: absolute;
+        top:0;
+        right:0;
+       width:50px;
+    }
+}

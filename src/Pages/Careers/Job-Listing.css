@@ -1,0 +1,177 @@
+.career-page-job-listing-outer-container{
+    padding:0;
+    margin:0;
+}
+.career-page-job-listing-container {
+    padding-top: 60px;
+}
+
+.job-listing-heading-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
+
+.job-listing-heading {
+    font-family: Rubik;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: left;
+    color: #387991;
+}
+
+.job-listing-heading-search-filter {
+    display: flex;
+    gap: 20px;
+}
+
+.job-listing-post-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.job-post-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px #00000014;
+    padding: 30px;
+
+}
+
+.job-listing-title {
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #1D4452;
+    margin-bottom:15px;
+}
+
+.job-listing-job-details1 {
+    margin-top: auto;
+}
+
+.job-listing-job-details1,
+.job-listing-job-details2 {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.job-listing-view-details-button {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    letter-spacing: 0.05em;
+    padding: 15px 25px;
+    text-align: left;
+    color: #014A60;
+    border: none;
+    background-color: #C0CDD1;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top:15px;
+}
+
+@media (max-width:1600px) {
+    .job-listing-heading {
+        font-size: 42px;
+        line-height: 42px;
+    }
+
+    .job-listing-heading-container {
+        margin-bottom: 40px;
+    }
+    .job-post-details-container {
+               gap: 20px;
+    }
+    .job-listing-title {
+        font-size: 20px;
+        line-height: 22px;
+        
+    }
+
+    .job-listing-job-details1,
+    .job-listing-job-details2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .job-listing-view-details-button {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+/* pagination styles */
+.pagination.careers{
+    justify-content: flex-end;
+    
+
+}
+.page-link{
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.page-item button {
+    text-decoration: none;
+    color: inherit; /* inherit the color from the li */
+}
+
+
+.page-item button{
+    text-decoration: none;
+}
+.page-link:hover{
+    font-weight: 700; 
+    color: #156380;
+}
+.page-item.active .page-link {
+    font-weight: 700; /* More emphasis on active item */
+    color: #156380; /* Change the color of the active page */
+
+}
+.job-listing-background-vector{
+    display:block;
+    text-align: end;
+    
+}
+.job-listing-background-vector img{
+    margin-top: auto;
+}
+@media (max-width:960px){
+    .job-listing-heading-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap:20px;
+    }
+    .job-listing-post-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width:700px){
+    .job-listing-post-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .job-listing-heading-search-filter {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

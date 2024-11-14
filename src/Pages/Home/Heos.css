@@ -1,0 +1,230 @@
+.heos-outer-container {
+    padding: 100px 0px;
+}
+
+.heos-content-container {
+    display: flex;
+    justify-content: center;
+}
+
+.heos-left-container {
+    width: 50%;
+}
+
+.heos-right-container {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.heos-left-para1 {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.33px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.heos-left-para2 {
+    font-family: Rubik;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 68px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.heos-right-para {
+    font-family: Rubik;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 44px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.heos-right-button {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.33px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #051B23;
+    background-color: #FFC629;
+    width: 220px;
+    height: 55px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+}
+
+.heos-image-background-vector {
+    margin-top: -215px;
+    position: relative;
+}
+
+@media (max-width:1600px) {
+    .heos-right-para {
+        font-family: Rubik;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 40px;
+
+    }
+
+    .heos-image-background-vector {
+        width: 150px;
+        margin-top: -167px !important;
+    }
+
+    .heos-left-para2 {
+        font-size: 58px;
+        line-height: 65px;
+    }
+}
+
+
+@media (max-width:1100px) {
+    .heos-right-container {
+        padding-left: 0px;
+    }
+
+    .heos-right-button {
+        font-size: 16px;
+        line-height: 18px;
+        width: 180px;
+        height: 55px;
+    }
+}
+
+@media (max-width:960px) {
+    .heos-image-background-vector {
+        width: 120px;
+        margin-top: -132px !important;
+    }
+}
+
+@media (max-width:767px) {
+    .heos-content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .heos-left-container {
+        width: 100%;
+    }
+
+    .heos-right-container {
+        width: 100%;
+    }
+
+    .heos-left-para1 {
+        font-size: 14px;
+        line-height: 17px;
+
+    }
+
+    .heos-left-para2 {
+        font-size: 40px;
+        line-height: 40px;
+
+    }
+
+    .heos-right-para {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .heos-right-button {
+        font-family: Rubik;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.59px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        width: 180px;
+        height: 50px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .heos-image-background-vector {
+        width: 80px;
+        margin-top: -89px !important;
+    }
+}
+
+/* heos image styles */
+.heos-image-full {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.heos-image-full img {
+    width: 90%;
+    margin-top: -600px;
+    margin-left: 50px;
+}
+
+@media (max-width:1600px) {
+    .heos-image-full img {
+        width: 85%;
+        margin-top: -500px;
+    }
+}
+
+@media (max-width:960px) {
+    .heos-image-full img {
+        margin-top: -400px;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:767px) {
+    .heos-image-full img {
+        width: 80%;
+        margin-top: -260px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width:550px) {
+    .heos-outer-container {
+        padding: 80px 0px 60px 0px;
+    }
+
+    .heos-image-background-vector {
+        width: 60px;
+        margin-top: -67px !important;
+    }
+
+    .heos-image-full img {
+        width: 80%;
+        margin-top: -200px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:374px) {
+    .heos-image-background-vector {
+        width: 50px;
+        margin-top: -55px !important;
+    }
+
+    .heos-image-full img {
+        width: 75%;
+        margin-top: -200px;
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,61 @@
+.home-page-counters-outer-container{
+    background-color:#fafafa;
+}
+.counters-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.counters-container{
+    padding:50px 0px 50px;
+}
+.counters-numbers{
+    font-family: Rubik;
+font-size: 64px;
+font-weight: 700;
+line-height: 68px;
+text-align: left;
+color:#BCD2D8;
+margin-bottom:20px;
+}
+.counters-text{
+    font-family: Rubik;
+font-size: 26px;
+font-weight: 300;
+line-height: 26px;
+text-align: left;
+color:#051B23;
+}
+@media (max-width:1600px){
+    .counters-numbers{       
+    font-size: 42px;    
+    line-height: 42px;
+    margin-bottom:10px;
+    }
+    .counters-text{       
+    font-size: 20px;   
+    }
+}
+@media (max-width:960px){
+    .counters-numbers{       
+    font-size: 40px;    
+    line-height: 40px;
+    margin-bottom:10px;
+    }
+    .counters-text{       
+    font-size: 18px;   
+    }
+}
+@media (max-width:767px){
+    .counters-container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        gap:50px;
+       
+    }
+    .home-page-counters-outer-container{
+        padding-top:20px;
+    }
+}

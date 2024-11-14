@@ -1,0 +1,54 @@
+/* right side bar */
+
+.heavy-weight-page-sidebar {
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+    
+}
+.sidebar-recent-posts-container,
+.sidebar-archives-container{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.sidebar-recent-posts-container h3,
+.sidebar-archives-container h3{
+
+font-family: Rubik;
+font-size: 22px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+color:#051B23;
+}
+.recent-posts-title,
+.sidebar-archives{
+    font-family: Rubik;
+font-size: 22px;
+font-weight: 300;
+line-height: 30px;
+text-align: left;
+color:#051B23;
+list-style:none;
+cursor: pointer;
+text-transform: none;
+
+}
+@media (max-width:1600px){
+    .sidebar-recent-posts-container h3,
+    .sidebar-archives-container h3{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .recent-posts-title
+{
+    font-size: 16px;
+    line-height: 26px;
+}
+.sidebar-archives{
+
+    font-size: 16px;
+    line-height: 30px;
+}
+}

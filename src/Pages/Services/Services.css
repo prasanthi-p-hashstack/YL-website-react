@@ -1,0 +1,219 @@
+.services-page-equipment-section{
+        padding :60px 0px;
+        box-sizing: border-box;
+}
+
+.services-page-equipment-container-heading{
+    font-size:50px;
+    text-align: center;
+    margin-bottom: 60px;;
+
+}
+.services-page-equipments-display-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    /* justify-items:center; */
+
+}
+
+.services-page-equipment-images {
+    /* max-width: 100%; */
+    width: 100%;
+    height: 250px;
+}
+.services-page-equipment-name{
+    text-align: center;
+    padding:15px;
+    font-size: 20px;
+    letter-spacing: 1.1px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #051b23;
+}
+
+@media(max-width:1025px){
+    .services-page-equipments-display-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    .services-page-equipment-container-heading{
+        font-size:40px;
+    }
+}
+@media(max-width:960px){
+    .services-page-equipments-display-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+@media(max-width:700px){
+    .services-page-equipment-section{
+        padding :80px 0px;
+        box-sizing: border-box;
+}
+    .services-page-equipments-display-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap:20px;
+        
+    }
+    .services-page-equipment-container-heading{
+        font-size:25px;
+    }
+}
+
+/* brands styles */
+.services-brands-section-outer-container{
+    margin-bottom:100px;
+    
+}
+.services-page-brands-container-heading{
+    font-size:50px;
+    font-weight:700;
+    line-height: 1.2em;
+    color:#FFFFFF;
+    padding:40px 0px 80px 0;
+    text-align: center;
+}
+
+.services-brands-images-container{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    row-gap:80px;
+    column-gap: 80px;
+    align-items: center;  
+    padding-top:80px;
+    justify-content: center;
+    
+}
+.services-brand-images{
+    width:100%;
+    height:auto;
+}
+@media (max-width:2000px){
+    .services-page-brands-container-heading{
+        padding:60px 0px 60px 0;
+        text-align: center;
+    }
+       
+   
+}
+
+   
+@media (max-width:1600px){
+   
+       .services-page-brands-container-heading{
+        padding:60px 0px 20px 0;
+        text-align: center;
+    }  
+    .services-brands-images-container{
+        margin-top:40px;
+    }    
+
+}
+@media (max-width:1200px){
+   
+    .services-brands-images-container{
+        display: grid;
+        grid-template-columns: repeat(3,200px);
+        gap:50px;
+        column-gap: 30px;
+        align-items: center; 
+        justify-content: center;  
+        margin: 20px 40px 0 40px;  
+        
+    }
+    
+}
+@media (max-width:1025px){
+  
+    .services-page-brands-container-heading{
+        padding:60px 0px 0px 0;
+        text-align: center;
+    }      
+    
+}
+@media (max-width:767px){
+
+    .services-brands-section-outer-container{      
+        margin-bottom:60px;
+       
+       }
+    .services-brands-images-container{
+        display: grid;
+        grid-template-columns: repeat(2,150px);
+        row-gap:40px;
+        column-gap: 40px;  
+
+    }
+    .services-page-brands-container-heading{
+        font-size:25px;
+        padding:80px 0px 20px 0;
+    }
+        
+    
+}
+@media (max-width:360px){
+
+ 
+    .services-brands-images-container{
+        display: grid;
+        grid-template-columns: repeat(2,100px);
+        gap:40px;
+        column-gap: 30px;       
+    }
+    .services-page-brands-container-heading{
+        font-size:25px;
+        padding:80px 0px 0px 0;
+    }
+        
+    
+}
+/* types of services styles */
+.services-types-heading{
+    text-align: center;
+    color:#FFFFFF;
+    background-color: #000000;
+    padding:40px 0px;
+    font-size: 50px;
+}
+
+.services-content-main-heading{
+    font-size:35px;
+    margin-top:60px;
+    margin-bottom:-20px;
+}
+.categories-subContent-left-container,.categories-subContent-right-container{
+    width:50%;
+    box-sizing:border-box;
+}
+.categories-subContent-left-container .services-subcontent{
+    font-size:21px;
+    line-height:1.3em;
+    margin-bottom:20px;
+}
+.categories-subContent-right-container .services-image{
+    padding-left:50px;
+
+}
+@media(max-width:1025px){
+    .services-types-heading{
+        font-size:40px;
+    }
+}
+
+
+@media (max-width:767px){
+    .categories-subContent-left-container .services-subcontent{
+        font-size:18px;
+        line-height:1.3em;
+        margin-bottom:20px;
+    }
+    .services-types-heading{
+        font-size:25px;
+    }
+
+}

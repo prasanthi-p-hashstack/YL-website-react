@@ -1,0 +1,78 @@
+
+.button-box-front {
+    width: 250px;
+    height: 38px;
+    
+    /* margin-right: 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: #8C9DA34D;
+    border-radius: 4px;
+}
+
+.toggle-btn1-front {
+    height: 38px;
+    width: 150px;
+    align-items: center;
+    padding: 10px 12px 10px 12px;
+    font-family: rubik;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 3%;
+    cursor: pointer;
+    background: transparent;
+    color: #ffffff;
+    border: 0;
+    outline: none;
+    position: relative;
+    text-align: center;
+    transition: background-color 0.3s;
+    border-radius:4px;
+}
+
+.toggle-btn2-front {
+    border-radius:4px;
+    height: 38px;
+    width: 100px;
+    padding: 10px 12px 10px 12px;
+    cursor: pointer;
+    font-family: rubik;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 3%;
+    background: transparent;
+    color: #051b23;
+    border: 0;
+    outline: none;
+    position: relative;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.toggle-btn1-front:hover,
+.toggle-btn2-front:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.toggle-btn1-front:active,
+.toggle-btn2-front:active {
+    background-color: #5F6567;
+    color: #FFFFFF;
+}
+
+#btn-front {
+    left: 150px;
+    top: 0;
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background: #8C9DA3D9;
+    transition: .3s;
+    border-radius: 4px;
+}
+ .toggle-btn1-front img,.toggle-btn2-front img{
+    margin-right:5px;
+}

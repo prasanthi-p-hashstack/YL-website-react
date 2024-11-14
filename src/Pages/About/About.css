@@ -1,0 +1,411 @@
+.about-full-page-container {
+    margin-top: 60px;
+}
+
+.about-page-intro-content {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 36px;
+    text-align: left;
+    color: #051B23;
+    width: 60%;
+
+}
+
+.about-page-intro-content-para2 {
+    margin-top: 15px;
+}
+
+.about-page-intro-background-vector {
+    display: block;
+    text-align: right;
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media(max-width:1600px) {
+
+    .about-page-intro-content {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
+@media(max-width:1025px) {
+    .about-full-page-container {
+        margin-top: 40px;
+    }
+
+    .about-page-intro-content {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .background-vector3 {
+        width: 60%;
+    }
+
+}
+
+@media(max-width:767px) {
+    .background-vector3 {
+        width: 85%;
+    }
+}
+
+/* brand values imagebox */
+.about-page-brand-values-outer-container {
+    margin-top: 60px;
+    background-color: #FAFAFA;
+}
+
+.about-page-brand-values-container {
+    padding: 80px 0 80px;
+}
+
+.about-page-brand-heading {
+    padding-bottom: 60px;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #387991;
+
+}
+
+.about-page-brand-imagebox-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 55px;
+}
+
+.about-page-imagebox {
+    background-color: #1D4452;
+    padding: 45px 35px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.about-page-imagebox-heading {
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    margin: 25px 0 8px;
+}
+
+.about-page-imagebox-para {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+}
+
+@media (max-width:1600px) {
+    .about-page-brand-imagebox-container {
+        gap: 40px;
+    }
+
+    .about-page-imagebox {
+        padding: 40px 30px;
+    }
+
+    .about-page-imagebox-heading {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .about-page-imagebox-para {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+}
+
+@media (max-width:1000px) {
+    .about-page-brand-imagebox-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .about-page-imagebox {
+        padding: 45px 35px;
+    }
+}
+
+@media (max-width:700px) {
+    .about-page-brand-imagebox-container {
+        display: grid;
+        grid-template-columns: repeat(1, 500px);
+        gap: 40px;
+        justify-content: center;
+
+    }
+
+    .about-page-imagebox {
+        padding: 45px 35px;
+    }
+
+    .about-page-brand-heading {
+        font-size: 38px;
+        line-height: 38px;
+
+    }
+}
+
+@media (max-width:500px) {
+    .about-page-brand-imagebox-container {
+        display: grid;
+        grid-template-columns: repeat(1, 330px);
+        gap: 35px;
+        justify-content: center;
+
+    }
+
+    .about-page-imagebox {
+        padding: 40px 30px;
+    }
+}
+
+@media (max-width:320px) {
+    .about-page-brand-imagebox-container {
+        display: grid;
+        grid-template-columns: repeat(1, 300px);
+        gap: 35px;
+        justify-content: center;
+
+    }
+}
+
+/* Team Card Section */
+.about-page-team-section-outer-container {
+    padding-top: 80px;
+}
+
+.about-page-team-card-container {
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 55px;
+
+}
+
+.about-page-team-card {
+    /* width: 320px; */
+    height: 410px;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px 0px #00000014;
+    position: relative;
+    border-radius: 4px;
+}
+
+.is-flipped {
+    transform: rotateY(180deg);
+}
+
+.about-page-team-front-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Aligns content to the left */
+    justify-content: flex-start;
+    /* Ensures content starts at the top */
+    background-color: #fff;
+    padding: 25px;
+    /* Adds padding for better spacing */
+    box-sizing: border-box;
+    /* Ensures padding is included in element width */
+}
+
+/* to make the back card data display exactly at the back of front card */
+.about-page-team-front-card,
+.about-page-team-back-card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    /* Hides the back side when the front is visible */
+}
+
+.about-page-team-back-card {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    background-color: #fff;
+    transform: rotateY(180deg);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    width: 100%;
+    /* Ensure it covers the front card */
+    height: 100%;
+    /* Ensure it covers the front card */
+    padding: 25px;
+    /* Apply padding */
+    box-sizing: border-box;
+    /* Include padding in width/height calculation */
+}
+
+
+.is-flipped .about-page-team-back-card {
+    opacity: 1;
+    /* Show the back when the card is flipped */
+
+}
+
+.is-flipped .about-page-team-front-card {
+    opacity: 0;
+    /* Hide the front when the card is flipped */
+}
+
+.about-page-linkedlin-arrow-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: auto;
+}
+
+.about-team-team-card-image {
+    display: flex;
+    /* Allows for centering the image */
+    justify-content: center;
+    /* Center the image horizontally */
+    width: 100%;
+    /* Take full width of the card */
+}
+
+.about-page-team-card-name {
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-top: 10px;
+    align-self: flex-start;
+    text-align: left;
+    margin-top: 10px;
+}
+
+@media (max-width:768px) {
+    .about-page-team-card-name {
+        font-size: 18px;
+        line-height: 20px;
+
+    }
+}
+
+.about-page-team-card-right-arrow {
+    width: 50px;
+}
+
+.about-page-linkedlin {
+    width: 30px;
+}
+
+.about-page-background-vector4 {
+    position: absolute;
+    right: 0;
+    margin-top: -800px;
+
+}
+
+@media (min-width:1600px) {
+    .about-page-team-card {
+        /* width: 320px; */
+        height: 520px;
+    }
+}
+
+@media (max-width:1600px) {
+    .about-page-background-vector4 {
+        height: 700px;
+    }
+
+    .about-page-background-vector4 {
+        height: 600px;
+        margin-top: -650px;
+    }
+}
+
+@media (max-width:1300px) {
+    .about-page-background-vector4 {
+
+        height: 500px;
+        margin-top: -550px;
+    }
+}
+
+@media (max-width:1150px) {
+    .about-page-background-vector4 {
+        height: 400px;
+        margin-top: -550px;
+    }
+
+    .about-page-team-card-container {
+        display: grid;
+        gap: 35px;
+    }
+}
+
+@media (max-width:1025px) {
+    .about-page-team-card {
+        /* width: 320px; */
+        height: 380px;
+    }
+}
+
+@media (max-width:960px) {
+    .about-page-team-card {
+        /* width: 320px; */
+        height: 340px;
+    }
+}
+
+@media(max-width:769px) {
+    .about-page-team-card {
+        /* width: 320px; */
+        height: 320px;
+    }
+    .about-page-background-vector4 {
+        height: 400px;
+        margin-top: -450px;
+    }
+}
+@media(max-width:700px){
+    .about-page-team-card-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 35px;
+    }
+    .about-page-team-card {
+        /* width: 320px; */
+        height: 380px
+    }
+    .about-page-background-vector4 {
+        height: 400px;
+        margin-top: -500px;
+    }
+}
+@media(max-width:500px){
+    .about-page-team-card-container {
+        display: grid;
+        grid-template-columns: repeat(1,350px);
+        justify-content: center;
+        gap: 35px;
+    }
+    .about-page-team-card {
+        /* width: 320px; */
+       
+        height: 420px
+    }
+    .about-page-background-vector4 {
+        display:none;
+    }
+}

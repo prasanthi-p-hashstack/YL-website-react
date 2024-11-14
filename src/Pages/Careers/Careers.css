@@ -1,0 +1,721 @@
+.careers-page-banner img {
+    height: 700px;
+    width: 100%;
+}
+
+@media (max-width:1600px) {
+    .careers-page-banner img {
+        height: 550px;
+    }
+}
+@media (max-width:767px) {
+    .careers-page-banner img {
+        height: 400px;
+    }
+}
+
+
+/* Testimonials section */
+.careers-page-testimonials-container {
+    display: flex;
+    justify-content: start;
+    margin-top: 100px;
+    margin-bottom: 130px;
+    width: 100%;
+
+}
+
+.careers-page-testimonials-quotes {
+    width: 100px;
+    margin-bottom: -20px;
+    margin-left: -40px;
+}
+
+.careers-page-left-conatiner {
+    width: 50%;
+    font-family: Rubik;
+    font-size: 68px;
+    font-weight: 600;
+    line-height: 68px;
+    text-align: left;
+    color: #387991;
+}
+
+.careers-page-right-conatiner {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 350px;
+    /* Fix the height of the right container to ensure stable layout */
+
+}
+
+.career-page-left-container-content-span {
+    color: #FCC22C;
+}
+
+@media (max-width:1600px) {
+    .careers-page-left-conatiner {
+        font-size: 52px;
+        line-height: 52px;
+        padding-right: 50px;
+    }
+
+    .careers-page-testimonials-container {
+        margin-top: 80px;
+        margin-bottom: 120px;
+    }
+}
+
+@media (max-width:1025px) {
+
+    .careers-page-left-conatiner {
+        font-size: 48px;
+        line-height: 48px;
+        width: 40%;
+    }
+
+    .careers-page-right-conatiner {
+        width: 500px;
+    }
+
+    .careers-page-testimonials-container {
+        margin-top: 80px;
+        margin-bottom: 140px;
+    }
+}
+
+@media (max-width:960px) {
+    .careers-page-right-conatiner {
+        width: 400px;
+    }
+}
+
+@media (max-width:767px) {
+    .careers-page-right-conatiner {
+        width: 500px;
+    }
+
+    .careers-page-left-conatiner {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
+
+.careers-page-right-conatiner {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #051B23;
+    height: 300px;
+    /* Ensure a minimum height for the right container */
+}
+
+.careers-page-testimonial-container {
+    flex-grow: 1;
+    /* This allows the testimonial content to occupy the available space */
+    display: flex;
+    flex-direction: column;
+}
+
+.careers-page-testimonial-name {
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 20px;
+    text-align: left;
+    color: #1D4452;
+    margin: 10px 0px;
+}
+
+.careers-page-testimonial-job-title {
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.59px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #1D4452;
+    text-transform: uppercase;
+}
+
+@media (max-width:1600px) {
+    .careers-page-right-conatiner {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 5px;
+    }
+
+    .careers-page-testimonial-name {
+        font-size: 22px;
+    }
+
+    .careers-page-testimonial-job-title {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:1025px) {
+    .careers-page-right-conatiner {
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+
+    .careers-page-testimonial-name {
+        font-size: 20px;
+    }
+
+    .careers-page-testimonial-job-title {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 767px) {
+    .careers-page-testimonials-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 120px;
+    }
+
+    .careers-page-left-conatiner {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .careers-page-right-conatiner {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+
+    }
+
+    .careers-page-testimonial-container {
+        max-height: 300px;
+
+    }
+}
+
+@media (max-width: 550px) {
+    .careers-page-right-conatiner {
+        width: 350px;
+        margin-top: 40px;
+    }
+
+    .careers-page-testimonials-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 200px;
+    }
+
+    .careers-page-testimonials-container {
+        padding: 0 30px;
+    }
+}
+
+
+
+
+
+
+.carousel-arrows.testimonials {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    position: absolute;
+    bottom: -120px;
+
+}
+
+@media(max-width:960px) {
+    .carousel-arrows.testimonials {
+        bottom: -150px;
+    }
+}
+
+@media(max-width:767px) {
+    .carousel-arrows.testimonials {
+        bottom: -100px;
+    }
+}
+
+@media(max-width:550px) {
+    .carousel-arrows.testimonials {
+        bottom: -200px;
+    }
+}
+
+
+
+
+
+/* content styles of YL employeer */
+.careers-page-content-outer-container {
+    padding: 100px 0px;
+    background-color: #F5F9FA;
+}
+
+.careers-page-content-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.careers-page-content-left-container {
+    width: 50%;
+}
+
+.careers-page-content-right-container {
+    width: 50%;
+}
+
+.careers-page-left-content-para1 {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.33px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #1D4452;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.careers-page-left-content-para2 {
+    font-family: Rubik;
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 58px;
+    text-align: left;
+    color: #1D4452;
+}
+
+.careers-page-content-right-container {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 36px;
+    text-align: left;
+    color: #051B23
+}
+
+@media (max-width:1600px) {
+    .careers-page-content-outer-container {
+        padding: 80px 0px;
+    }
+
+    .careers-page-left-content-para1 {
+        font-size: 16px;
+    }
+
+    .careers-page-left-content-para2 {
+        font-size: 45px;
+        line-height: 48px;
+        max-width: 410px;
+    }
+
+    .careers-page-content-right-container {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width:1100px) {
+    .careers-page-left-content-para2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .careers-page-content-right-container {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .careers-page-content-outer-container {
+        padding: 80px 0px;
+    }
+}
+
+@media (max-width:767px) {
+
+    .careers-page-content-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .careers-page-left-content-para2 {
+        max-width: 100%;
+    }
+
+    .careers-page-content-left-container {
+        width: 100%;
+    }
+
+    .careers-page-content-right-container {
+        width: 100%;
+    }
+}
+
+/* hover section styles */
+.hover-section-single-container {
+    display: flex;
+    position: relative;
+    background-color: #051B23;
+    color: #ffffff;
+    height: 550px;
+    box-sizing: border-box;
+}
+
+.hover-section-single-text-container {
+    width: 30%;
+    transition: width 0.5s ease-in-out;
+    z-index: 2;
+    background-color: #051B23;
+}
+
+.hover-section-para1,
+.hover-section-container2-para1 {
+    font-family: Rubik;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: left;
+    padding: 100px 0px 10px 50px;
+}
+
+.hover-section-para2,
+.hover-section-container2-para2 {
+    font-family: Rubik;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: left;
+    padding: 0px 0px 10px 50px;
+    opacity: 0; /* Initially invisible */
+    visibility: hidden; /* Initially hidden */
+    transition: opacity 0.5s ease-in-out 2s; /* Delay text appearance */
+}
+
+.hover-section-image-container {
+    width: 70%;
+    height: 550px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.hover-section-right-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hover-section-single-container2 {
+    position: relative;
+    background-color: #051B23;
+    color: #ffffff;
+    height: 500px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.hover-section-left-image-container {
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.hover-section-left-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hover-section-single-text-container2 {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    background-color: #051B23;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    transition: width 0.5s ease-in-out;
+}
+
+@media (max-width: 1600px) {
+    .hover-section-para2,
+    .hover-section-container2-para2 {
+        font-size: 22px;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .hover-section-para1,
+    .hover-section-container2-para1 {
+        font-size: 42px;
+        line-height: 42px;
+    }
+}
+@media (max-width: 1200px) {
+    .hover-section-para1,
+    .hover-section-container2-para1 {
+        font-size: 39px;
+        line-height: 39px;
+        padding: 80px 0px 10px 30px;
+    }
+
+    .hover-section-para2,
+    .hover-section-container2-para2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 1027px) {
+    .hover-section-para1,
+    .hover-section-container2-para1 {
+        font-size: 39px;
+        line-height: 39px;
+        padding: 80px 0px 10px 30px;
+    }
+
+    .hover-section-para2,
+    .hover-section-container2-para2 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .hover-section-single-text-container {
+        width: 40%;
+    }
+
+    .hover-section-single-text-container2 {
+        width: 40%;
+    }
+}
+
+/* Hover effect for expanding the text container */
+.hover-section-single-container:hover .hover-section-single-text-container {
+    width: 45%;
+    transition: width 0.5s ease-in-out;
+}
+
+/* Show paragraph 2 on hover with a delayed opacity transition */
+.hover-section-single-container:hover .hover-section-para2,
+.hover-section-single-container2:hover .hover-section-container2-para2 {
+    opacity: 1; /* Make it visible */
+    visibility: visible; /* Ensure element is present for opacity to transition */
+    padding: 10px 50px 0px 50px;
+    transition: opacity 0.3s ease-in-out 1s; /* 5s delay, then 0.5s opacity transition */
+}
+
+/* Second container hover effect */
+.hover-section-single-container2:hover .hover-section-single-text-container2 {
+    width: 45%;
+    transition: width 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+@media (max-width: 1027px) {
+    .hover-section-single-container:hover .hover-section-single-text-container {
+        width: 55%;
+    }
+
+    .hover-section-single-container2:hover .hover-section-single-text-container2 {
+        width: 55%;
+    }
+
+    .hover-section-single-container:hover .hover-section-para2 {
+        padding: 0px 30px 0px 30px;
+        transition: opacity 0.1s ease-in-out 2s;
+    }
+
+    .hover-section-single-container2:hover .hover-section-container2-para2 {
+        padding: 0px 30px 0px 30px;
+        transition: opacity 0.1s ease-in-out 2s;
+    }
+}
+
+@media (max-width:767px) {
+    .hover-section-outer-conainer {
+        display: none;
+    }
+}
+
+@media (min-width:767px) {
+    .hover-section-outer-conainer-mob {
+        display: none;
+    }
+}
+
+
+/* hover section mobile  */
+.hover-section-single-container-mob {
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+.hover-section-single-text-container-mob {
+    background-color: #051B23;
+    padding: 60px 20px;
+}
+
+.hover-section-para1-mob {
+    font-family: Rubik;
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 39px;
+    text-align: left;
+
+}
+
+.hover-section-para2-mob {
+    font-family: Rubik;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.hover-section-image-container-mob {
+    margin: 0;
+    padding: 0;
+}
+
+.hover-section-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* Ensures the image scales correctly */
+}
+
+/* festivals section */
+.careers-page-festivals-section-container {
+    margin-top: 80px;
+    margin-bottom:80px;
+}
+
+.festivals-section-heading {
+    text-align: center;
+    font-family: Rubik;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    color: #FCC22C;
+}
+
+.festivals-section-heading span {
+    color: #C0CDD1;
+}
+
+.festivals-section-gallery-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.festivals-section-gallery-container1 img {
+    width: 100%;
+}
+
+.festivals-plus-more-button-container {
+    display: block;
+    text-align: end;
+    margin-top: -50px;
+    margin-right: 20px;
+}
+
+.festivals-plus-more-button {
+    padding: 3px 15px;
+    background-color: #ffffff;
+    border-radius: 48px;
+    border: none;
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: #051B23;
+}
+
+
+.festivals-section-title {
+    font-family: Rubik;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: left;
+    color: #387991;
+    margin-top: 20px;
+}
+
+.festivals-section-location {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #C0CDD1;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+@media (max-width:1600px) {
+    .festivals-section-heading {
+        font-size: 52px;
+        line-height: 52px;
+    }
+
+    .festivals-section-title {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .festivals-section-location {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .festivals-plus-more-button {
+        font-size: 16px;
+    }
+}
+@media (max-width:767px){
+    .festivals-section-gallery-container{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+/* job-listing-posts-styles */
+
+

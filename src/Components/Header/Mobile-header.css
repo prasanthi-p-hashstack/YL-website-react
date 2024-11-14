@@ -1,0 +1,118 @@
+.mobile-menu-popup-content {
+    display: flex;
+    flex-direction: column;
+    z-index:99999;
+}
+
+.mobile-menu-popup-logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 30px 20px 20px 20px;
+}
+
+.mobile-logo {
+    max-width: 250px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.search-bar-container-mob-popup {
+    display: flex;
+    gap: 60px;
+}
+
+.mobile-menu-popup-close {
+    margin-top: -3px;
+    cursor: pointer;
+}
+
+.mobile-menu-popup-navmenu-container {
+    padding-top: 20px;
+}
+
+.mobile-menu-popup-navmenu-container li {
+    list-style-type: none;
+    margin: 15px 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #CACACA;
+    transition: border-bottom 0.3s ease;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #1D4452
+}
+
+.mobile-menu-popup-navmenu-container li:hover {
+    border-bottom: 3px solid #fccc22;
+}
+
+.active-menu-item {
+    border-bottom: 3px solid #fccc22;
+}
+
+@media (max-width: 600px) {
+    .mobile-logo {
+        max-width: 220px;
+        margin-top: -20px;
+    }
+
+    .search-bar-container-mob-popup {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    .mobile-logo {
+        max-width: 140px;
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 350px) {
+    .mobile-menu-popup-logo-container {
+        gap: 20px;
+    }
+
+    .search-bar-container-mob-popup {
+        gap: 20px;
+    }
+}
+
+/* equire-form-styles */
+.header-enquire-form-button-link {
+    color:#FFC629;
+    text-decoration: none;
+    display: inline-flex;
+    /* align-items: center; */
+    font-family: Rubik;
+ font-size: 16px;
+ font-weight: 700;
+ line-height: 18.96px;
+ letter-spacing: 0.05em;
+ text-align: right;
+ margin-right:1px;
+ cursor: pointer;
+ margin-left:30px;
+ margin-top:20px;
+ 
+    
+ }
+ .header-enquire-form .fa-angle-right {
+     color: #FFC629;
+     font-size: 18px; 
+     margin-left:1px;
+     font-weight: 700;
+     align-items: center;
+ }
+
+ /* toggle switch styles */
+ .mobile-toggle-switch{
+    margin-top:40px;
+    margin-left:30px;
+ }

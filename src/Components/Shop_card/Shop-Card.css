@@ -1,0 +1,57 @@
+.shop-card-container {
+    width: 280px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #F4F7F8;
+}
+
+.shop-card-image {
+    width: 100%;    /* Full width of container */
+    height: 280px;  /* Fixed height, adjust to your desired size */
+    object-fit: cover; /* Maintains the aspect ratio, but may crop the image */
+    display: block;
+    margin-bottom:10px;
+}
+
+.shop-card-container p {
+    margin-left: 20px;
+
+}
+
+.product-title {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #014A60;
+
+
+}
+
+.product-details {
+    font-family: Rubik;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.58px;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #014A60;
+
+}
+
+.product-view-details {
+    width: 100%;
+    border: none;
+    background-color: #C0CDD1;
+    padding: 10px 0;
+    border-radius: 0 0 10px 10px;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.5px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #014A60;
+}
