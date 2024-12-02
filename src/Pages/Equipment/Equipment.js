@@ -3,7 +3,7 @@ import HalfImageCaurosel from "../../Components/Half-image-caurosel/Half-Image-C
 import './Equipment.css';
 import AboutApp from "../../Components/About-App/About-App";
 import FullWidthCarousel from "../../Components/Full-Width-Carousel/Full-Width-Carousel";
-
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -27,6 +27,7 @@ const Equipment = () => {
         "./Images/slider/slider9.png",
         "./Images/slider/slider10.png"
     ]
+    const navigate = useNavigate();
 
     return (
         <>
@@ -40,11 +41,11 @@ const Equipment = () => {
                     <div className="buy-sell-intro-button-container">
                         <div className="buy-sell-intro-button">
                             <img src="./Images/IND-flag.png" alt="IND-flag" />
-                            <button>buy and sell now</button>
+                            <button onClick={() =>navigate('/listingpage1')}>buy and sell now</button>
                         </div>
                         <div className="buy-sell-intro-button">
                             <img src="./Images/UAE-flag.png" alt="UAE-flag" />
-                            <button>buy and sell now</button>
+                            <button onClick={() =>navigate('/listingpage2')}>buy and sell now</button>
                         </div>
                     </div>
                 </div>

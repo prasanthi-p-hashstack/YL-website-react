@@ -60,6 +60,7 @@
     width: 240px;
     text-transform: uppercase;
     border-radius: 0 4px 4px 0;
+    cursor: pointer;
 }
 
 .buy-sell-intro-button img {

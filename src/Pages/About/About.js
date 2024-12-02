@@ -22,14 +22,14 @@ const About = () => {
         },
         {
             name: "Sumit Bhosale",
-            img: "./Images/about/about-profile3.png", 
+            img: "./Images/about/about-profile3.png",
             backContent: "8+ years of experience in the Real Estate and Home Interior BusinessFounding team member of Mygubbi and Lynx Ex – PurvankaraB.E and MBA (IIM-K)"
         },
         {
             name: "Avinash Sangurmath",
             img: "./Images/about/about-profile4.png",
             backContent: "15+ years of experienceEx -JP Morgan, Accenture & MindtreeB.Tech – Bengaluru University"
-        }, 
+        },
         {
             name: "Ajay Anand",
             img: "./Images/about/about-profile5.png",
@@ -46,8 +46,11 @@ const About = () => {
                     <p className="about-page-intro-content-para1">YantraLive is an Asia-based B2B platform for Heavy Equipment Owners. We are redefining heavy equipment ownership by building industry-first solutions to trade pre-owned equipment, helping owners maintain their equipment by supplying the right parts and services on time. YantraLive was conceived in 2018 in response to the inefficiencies observed in the Heavy Equipment Ownership throughout its lifecycle.</p>
                     <p className="about-page-intro-content-para2">Our mission is to Eliminate Downtime & Idle time of Heavy Equipment through technology-led Innovations and build an ecosystem for heavy equipment related solutions.</p>
                 </div>
-            </div>
 
+            </div>
+            <div className="about-page-background-vector">
+                <img src='./Images/background-vector3.png' alt='background-vector'></img>
+            </div>
             {/* Brand Values Section */}
             <div className="about-page-brand-values-outer-container">
                 <div className="about-page-brand-values-container content-width">
@@ -73,7 +76,7 @@ const About = () => {
                             <h3 className="about-page-imagebox-heading">Entrepreneurial Mind</h3>
                             <p className="about-page-imagebox-para">We are passionate entrepreneurs and are growing mad, and we will always make conscious efforts to grow by giving better benefits to our customers.</p>
                         </div>
-                        
+
                         <div className="about-page-imagebox">
                             <img
                                 src="./Images/about/about-page-img5.png"
@@ -140,10 +143,10 @@ const About = () => {
                             </div>
                         ))}
                     </div>
-                    <img                    
-                        src="./Images/background-vector4.png" 
+                    <img
+                        src="./Images/background-vector4.png"
                         alt="background-vector4"
-                        className="about-page-background-vector4"/>
+                        className="about-page-background-vector4" />
                 </div>
             </div>
         </div>

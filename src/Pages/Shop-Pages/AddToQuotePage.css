@@ -1,0 +1,48 @@
+.add-to-quote {
+    margin:60px auto;
+   max-width:800px;
+}
+.add-to-quote-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom:40px;
+}
+.add-to-quote-table th,
+.add-to-quote-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+.add-to-quote-table img.add-to-quote-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  .add-to-quote-quantity-input {
+    width: 50px;
+    text-align: center;
+  }
+.products-delete-icon .fa-close {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+}
+.request-form h2{
+    margin-bottom:20px;
+}
+.add-to-quote-no-products{
+    margin:30px auto;
+}
+.add-to-quote-page-text{
+  font-size:18px;
+  line-height:32px;
+  font-weight:400;
+  max-width:800px;
+  margin:0px auto 60px;
+  text-align: center;
+}

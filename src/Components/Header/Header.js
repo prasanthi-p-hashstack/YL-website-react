@@ -50,6 +50,20 @@ const Header = () => {
         };
     }, [lastScrollY]);
 
+    // Update active menu item based on location.pathname
+    useEffect(() => {
+        const pathToMenuMap = {
+            '/equipment': 'equipment',
+            '/parts': 'parts',
+            '/fleet': 'fleet',
+            '/about': 'about',
+            '/heavy-weight': 'heavy-weight',
+            '/careers': 'careers',
+        };
+
+        setMenu(pathToMenuMap[location.pathname] || 'equipment'); // Default to empty if no match
+    }, [location.pathname]);
+    
      // Check if the current path is '/login'
      if (location.pathname === '/login') {
         return null;  // Don't render the Header on the login page

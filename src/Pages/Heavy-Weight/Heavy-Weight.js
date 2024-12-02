@@ -38,9 +38,10 @@ const HeavyWeight = () => {
     const paginationNumbers = [...Array(nofPages + 1).keys()].slice(1);
     const navigate = useNavigate();
 
-    // Get the 10 most recent posts
+    // Get the 10 most recent posts-sidebar
     const recentPosts = sortedBlogs.slice(0, 10);
 
+    // Arrows functionality
     const previousPage = () => {
         if (currentPage !== 1) {
             setCurrentPage(currentPage - 1);
