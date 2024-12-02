@@ -1,7 +1,7 @@
 import React from "react";
 import ShopCard from "../../Components/Shop_card/Shop-Card";
 import data from "../../Components/Assets/all-products";
-import './Shop.css';
+// import './Shop.css';
 
 const Shop = () => {
     const fallbackImage = "/Images/web-logo.png"; 

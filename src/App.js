@@ -19,6 +19,10 @@ import Categories from './Pages/Categories/Categories';
 import Services from './Pages/Services/Services';
 import Register from './Pages/Login-page/Register';
 import CreatePassword from './Pages/Login-page/Create-Password';
+import ProductListing from './Pages/Shop-Pages/ProductListing';
+import UsedEquipmentList from './Pages/Shop-Pages/UsesEquipmentIND';
+import ProductDetails from './Pages/Shop-Pages/ProductDetails';
+import AddToQuotePage from './Pages/Shop-Pages/AddTOQuotePage';
 
 // Component to scroll to top on every route change
 function ScrollToTopOnRouteChange() {
@@ -70,10 +74,16 @@ function App() {
           <Route path="/blog/:id" element={<SingleBlogPost />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/careers/job/:id" element={<SingleJobPostComponent />} />
-          <Route path="/shop" element={<Shop />} />
+          {/* <Route path="/shop" element={<Shop />} /> */}
+          <Route path="/shop" element={<ProductListing/>} />
           <Route path="/enquire-form" element={<EnquireForm />} />
           <Route path='/categories' element={<Categories/>}/>
           <Route path='/services' element={<Services/>}/>
+          <Route path='/listingpage1' element={<UsedEquipmentList/>}/>
+          <Route path='/listingpage2' element={<UsedEquipmentList/>}/>
+          <Route path='/product/:id' element={<ProductDetails/>}/>
+          <Route path='/add-to-quote' element={<AddToQuotePage/>}/>
+          
         </Routes>
       )}
       {!isLoginPage && <Footer />}

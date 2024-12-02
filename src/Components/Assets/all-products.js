@@ -1,10 +1,9 @@
 const data = [
     {
         "equipmentId": 2078014,
-        "title": "HAMM 311",
+        "title": "HAMM 311 both",
         "brandId": null,
         "modelId": null,
-        "usedDays": null,
         "askingPrice": 1020000.00,
         "gstIncluded": null,
         "finalPrice": 0.00,
@@ -186,12 +185,20 @@ const data = [
         "insurance": "",
         "inspection": "",
         "sellTerritory": [
-            "IND"
+            "IND","UAE"
         ],
-        "specificationsSummary": null,
-        "specifications": "",
-        "overview": "",
-        "performanceCapabilities": null,
+        
+        "specificationsSummary": [
+      "Engine: JCB Dieselmax 444",
+      "Net Power: Approximately 74 kW (100 hp)",
+      "Maximum Lift Height: 11 meters",
+      "Maximum Lift Capacity: 3,000 kg",
+      "Hydraulic Flow: 110 l/min",
+      "Operating Weight: 7,300 kg",
+    ],
+        "specifications":null,
+        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "performanceCapabilities": 'The 530-110 Agri combines power, efficiency, and versatility, making it suitable for a wide range of tasks. Its robust build ensures durability even in demanding environments, while its precise hydraulic system allows smooth control for efficient material handling. This telehandler is designed to optimize productivity and reduce operational costs.',
         "noOfPastOwners": null,
         "timeToSell": ""
     },
@@ -330,10 +337,17 @@ const data = [
         "sellTerritory": [
             "IND"
         ],
-        "specificationsSummary": null,
-        "specifications": "",
-        "overview": "",
-        "performanceCapabilities": null,
+        "specificationsSummary": [
+      "Engine: JCB Dieselmax 444",
+      "Net Power: Approximately 74 kW (100 hp)",
+      "Maximum Lift Height: 11 meters",
+      "Maximum Lift Capacity: 3,000 kg",
+      "Hydraulic Flow: 110 l/min",
+      "Operating Weight: 7,300 kg",
+    ],
+        "specifications":null,
+        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "performanceCapabilities": 'The 530-110 Agri combines power, efficiency, and versatility, making it suitable for a wide range of tasks. Its robust build ensures durability even in demanding environments, while its precise hydraulic system allows smooth control for efficient material handling. This telehandler is designed to optimize productivity and reduce operational costs.',
         "noOfPastOwners": null,
         "timeToSell": ""
     },
@@ -508,10 +522,17 @@ const data = [
         "sellTerritory": [
             "IND"
         ],
-        "specificationsSummary": null,
-        "specifications": "",
-        "overview": "",
-        "performanceCapabilities": null,
+        "specificationsSummary": [
+      "Engine: JCB Dieselmax 444",
+      "Net Power: Approximately 74 kW (100 hp)",
+      "Maximum Lift Height: 11 meters",
+      "Maximum Lift Capacity: 3,000 kg",
+      "Hydraulic Flow: 110 l/min",
+      "Operating Weight: 7,300 kg",
+    ],
+        "specifications":null,
+        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "performanceCapabilities": 'The 530-110 Agri combines power, efficiency, and versatility, making it suitable for a wide range of tasks. Its robust build ensures durability even in demanding environments, while its precise hydraulic system allows smooth control for efficient material handling. This telehandler is designed to optimize productivity and reduce operational costs.',
         "noOfPastOwners": null,
         "timeToSell": ""
     },
@@ -610,13 +631,50 @@ const data = [
         "fuelType": null,
         "insurance": null,
         "inspection": null,
-        "sellTerritory": null,
-        "specificationsSummary": null,
-        "specifications": null,
-        "overview": null,
-        "performanceCapabilities": null,
+        "sellTerritory": [
+            "UAE"
+        ],
+        "specificationsSummary": [
+      "Engine: JCB Dieselmax 444",
+      "Net Power: Approximately 74 kW (100 hp)",
+      "Maximum Lift Height: 11 meters",
+      "Maximum Lift Capacity: 3,000 kg",
+      "Hydraulic Flow: 110 l/min",
+      "Operating Weight: 7,300 kg",
+    ],
+        "specifications":null,
+        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "performanceCapabilities": 'The 530-110 Agri combines power, efficiency, and versatility, making it suitable for a wide range of tasks. Its robust build ensures durability even in demanding environments, while its precise hydraulic system allows smooth control for efficient material handling. This telehandler is designed to optimize productivity and reduce operational costs.',
         "noOfPastOwners": null,
-        "timeToSell": null
+        "timeToSell": "",
+        "imageload": [
+            {
+                "imageId": 2075571,
+                "equipmentId": 2075559,
+                "imageName": "https://stg-used-equipments.s3.ap-south-1.amazonaws.com/WhatsApp_Image_2024-09-23_at_10.26.11_AM_(1)1727069036967.jpeg",
+                "imageType": "front view",
+                "priority": 0,
+                "tags": "Right View",
+                "comments": null
+            },
+            {
+                "imageId": 2075572,
+                "equipmentId": 2075559,
+                "imageName": "https://stg-used-equipments.s3.ap-south-1.amazonaws.com/WhatsApp_Image_2024-09-23_at_10.26.11_AM1727069036967.jpeg",
+                "imageType": "front view",
+                "priority": 1,
+                "tags": "Right View",
+                "comments": null
+            },
+            {
+                "imageId": 2075573,
+                "equipmentId": 2075559,
+                "imageName": "https://stg-used-equipments.s3.ap-south-1.amazonaws.com/WhatsApp_Image_2024-09-23_at_10.26.12_AM_(1)1727069036967.jpeg",
+                "imageType": "front view",
+                "priority": 2,
+                "tags": "Left View",
+                "comments": null
+            },]
     },
     {
         "equipmentId": 2075377,
@@ -713,13 +771,51 @@ const data = [
         "fuelType": null,
         "insurance": null,
         "inspection": null,
-        "sellTerritory": null,
-        "specificationsSummary": null,
-        "specifications": null,
-        "overview": null,
-        "performanceCapabilities": null,
+        "sellTerritory": [
+            "UAE"
+        ],
+       "specificationsSummary": [
+      "Engine: JCB Dieselmax 444",
+      "Net Power: Approximately 74 kW (100 hp)",
+      "Maximum Lift Height: 11 meters",
+      "Maximum Lift Capacity: 3,000 kg",
+      "Hydraulic Flow: 110 l/min",
+      "Operating Weight: 7,300 kg",
+    ],
+        "specifications":null,
+        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "performanceCapabilities": 'The 530-110 Agri combines power, efficiency, and versatility, making it suitable for a wide range of tasks. Its robust build ensures durability even in demanding environments, while its precise hydraulic system allows smooth control for efficient material handling. This telehandler is designed to optimize productivity and reduce operational costs.',
         "noOfPastOwners": null,
-        "timeToSell": null
+        "timeToSell": "",
+        "imageload": [
+            {
+                "imageId": 2075571,
+                "equipmentId": 2075559,
+                "imageName": "https://stg-used-equipments.s3.ap-south-1.amazonaws.com/WhatsApp_Image_2024-09-23_at_10.26.11_AM_(1)1727069036967.jpeg",
+                "imageType": "front view",
+                "priority": 0,
+                "tags": "Right View",
+                "comments": null
+            },
+            {
+                "imageId": 2075572,
+                "equipmentId": 2075559,
+                "imageName": "https://stg-used-equipments.s3.ap-south-1.amazonaws.com/WhatsApp_Image_2024-09-23_at_10.26.11_AM1727069036967.jpeg",
+                "imageType": "front view",
+                "priority": 1,
+                "tags": "Right View",
+                "comments": null
+            },
+            {
+                "imageId": 2075573,
+                "equipmentId": 2075559,
+                "imageName": "https://stg-used-equipments.s3.ap-south-1.amazonaws.com/WhatsApp_Image_2024-09-23_at_10.26.12_AM_(1)1727069036967.jpeg",
+                "imageType": "front view",
+                "priority": 2,
+                "tags": "Left View",
+                "comments": null
+            },
+        ]
     },
     {
         "equipmentId": 2075379,
@@ -816,13 +912,51 @@ const data = [
         "fuelType": null,
         "insurance": null,
         "inspection": null,
-        "sellTerritory": null,
-        "specificationsSummary": null,
-        "specifications": null,
-        "overview": null,
-        "performanceCapabilities": null,
+        "sellTerritory": [
+            "UAE"
+        ],
+       "specificationsSummary": [
+      "Engine: JCB Dieselmax 444",
+      "Net Power: Approximately 74 kW (100 hp)",
+      "Maximum Lift Height: 11 meters",
+      "Maximum Lift Capacity: 3,000 kg",
+      "Hydraulic Flow: 110 l/min",
+      "Operating Weight: 7,300 kg",
+    ],
+        "specifications":null,
+        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "performanceCapabilities": 'The 530-110 Agri combines power, efficiency, and versatility, making it suitable for a wide range of tasks. Its robust build ensures durability even in demanding environments, while its precise hydraulic system allows smooth control for efficient material handling. This telehandler is designed to optimize productivity and reduce operational costs.',
         "noOfPastOwners": null,
-        "timeToSell": null
+        "timeToSell": null,
+        "imageload": [
+            {
+                "imageId": 2075571,
+                "equipmentId": 2075559,
+                "imageName": "https://stg-used-equipments.s3.ap-south-1.amazonaws.com/WhatsApp_Image_2024-09-23_at_10.26.11_AM_(1)1727069036967.jpeg",
+                "imageType": "front view",
+                "priority": 0,
+                "tags": "Right View",
+                "comments": null
+            },
+            {
+                "imageId": 2075572,
+                "equipmentId": 2075559,
+                "imageName": "https://stg-used-equipments.s3.ap-south-1.amazonaws.com/WhatsApp_Image_2024-09-23_at_10.26.11_AM1727069036967.jpeg",
+                "imageType": "front view",
+                "priority": 1,
+                "tags": "Right View",
+                "comments": null
+            },
+            {
+                "imageId": 2075573,
+                "equipmentId": 2075559,
+                "imageName": "https://stg-used-equipments.s3.ap-south-1.amazonaws.com/WhatsApp_Image_2024-09-23_at_10.26.12_AM_(1)1727069036967.jpeg",
+                "imageType": "front view",
+                "priority": 2,
+                "tags": "Left View",
+                "comments": null
+            },
+        ]
     },
     {
         "equipmentId": 2075378,
@@ -919,13 +1053,50 @@ const data = [
         "fuelType": null,
         "insurance": null,
         "inspection": null,
-        "sellTerritory": null,
-        "specificationsSummary": null,
-        "specifications": null,
-        "overview": null,
-        "performanceCapabilities": null,
+        "sellTerritory": [
+            "UAE"
+        ],
+        "specificationsSummary": [
+      "Engine: JCB Dieselmax 444",
+      "Net Power: Approximately 74 kW (100 hp)",
+      "Maximum Lift Height: 11 meters",
+      "Maximum Lift Capacity: 3,000 kg",
+      "Hydraulic Flow: 110 l/min",
+      "Operating Weight: 7,300 kg",
+    ],
+        "specifications":null,
+        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "performanceCapabilities": 'The 530-110 Agri combines power, efficiency, and versatility, making it suitable for a wide range of tasks. Its robust build ensures durability even in demanding environments, while its precise hydraulic system allows smooth control for efficient material handling. This telehandler is designed to optimize productivity and reduce operational costs.',
         "noOfPastOwners": null,
-        "timeToSell": null
+        "timeToSell":null,
+        "imageload": [
+            {
+                "imageId": 2075571,
+                "equipmentId": 2075559,
+                "imageName": "https://stg-used-equipments.s3.ap-south-1.amazonaws.com/WhatsApp_Image_2024-09-23_at_10.26.11_AM_(1)1727069036967.jpeg",
+                "imageType": "front view",
+                "priority": 0,
+                "tags": "Right View",
+                "comments": null
+            },
+            {
+                "imageId": 2075572,
+                "equipmentId": 2075559,
+                "imageName": "https://stg-used-equipments.s3.ap-south-1.amazonaws.com/WhatsApp_Image_2024-09-23_at_10.26.11_AM1727069036967.jpeg",
+                "imageType": "front view",
+                "priority": 1,
+                "tags": "Right View",
+                "comments": null
+            },
+            {
+                "imageId": 2075573,
+                "equipmentId": 2075559,
+                "imageName": "https://stg-used-equipments.s3.ap-south-1.amazonaws.com/WhatsApp_Image_2024-09-23_at_10.26.12_AM_(1)1727069036967.jpeg",
+                "imageType": "front view",
+                "priority": 2,
+                "tags": "Left View",
+                "comments": null
+            },]
     },
     {
         "equipmentId": 2075376,
@@ -1022,13 +1193,50 @@ const data = [
         "fuelType": null,
         "insurance": null,
         "inspection": null,
-        "sellTerritory": null,
-        "specificationsSummary": null,
-        "specifications": null,
-        "overview": null,
-        "performanceCapabilities": null,
+        "sellTerritory": [
+            "UAE"
+        ],
+      "specificationsSummary": [
+      "Engine: JCB Dieselmax 444",
+      "Net Power: Approximately 74 kW (100 hp)",
+      "Maximum Lift Height: 11 meters",
+      "Maximum Lift Capacity: 3,000 kg",
+      "Hydraulic Flow: 110 l/min",
+      "Operating Weight: 7,300 kg",
+    ],
+        "specifications":null,
+        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "performanceCapabilities": 'The 530-110 Agri combines power, efficiency, and versatility, making it suitable for a wide range of tasks. Its robust build ensures durability even in demanding environments, while its precise hydraulic system allows smooth control for efficient material handling. This telehandler is designed to optimize productivity and reduce operational costs.',
         "noOfPastOwners": null,
-        "timeToSell": null
+        "timeToSell": null,
+        "imageload": [
+            {
+                "imageId": 2075571,
+                "equipmentId": 2075559,
+                "imageName": "https://stg-used-equipments.s3.ap-south-1.amazonaws.com/WhatsApp_Image_2024-09-23_at_10.26.11_AM_(1)1727069036967.jpeg",
+                "imageType": "front view",
+                "priority": 0,
+                "tags": "Right View",
+                "comments": null
+            },
+            {
+                "imageId": 2075572,
+                "equipmentId": 2075559,
+                "imageName": "https://stg-used-equipments.s3.ap-south-1.amazonaws.com/WhatsApp_Image_2024-09-23_at_10.26.11_AM1727069036967.jpeg",
+                "imageType": "front view",
+                "priority": 1,
+                "tags": "Right View",
+                "comments": null
+            },
+            {
+                "imageId": 2075573,
+                "equipmentId": 2075559,
+                "imageName": "https://stg-used-equipments.s3.ap-south-1.amazonaws.com/WhatsApp_Image_2024-09-23_at_10.26.12_AM_(1)1727069036967.jpeg",
+                "imageType": "front view",
+                "priority": 2,
+                "tags": "Left View",
+                "comments": null
+            },]
     },
     {
         "equipmentId": 2058939,
@@ -1174,12 +1382,19 @@ const data = [
         "sellTerritory": [
             "IND"
         ],
-        "specificationsSummary": null,
-        "specifications": "",
-        "overview": "",
-        "performanceCapabilities": null,
+        "specificationsSummary": [
+      "Engine: JCB Dieselmax 444",
+      "Net Power: Approximately 74 kW (100 hp)",
+      "Maximum Lift Height: 11 meters",
+      "Maximum Lift Capacity: 3,000 kg",
+      "Hydraulic Flow: 110 l/min",
+      "Operating Weight: 7,300 kg",
+    ],
+        "specifications":null,
+        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "performanceCapabilities": 'The 530-110 Agri combines power, efficiency, and versatility, making it suitable for a wide range of tasks. Its robust build ensures durability even in demanding environments, while its precise hydraulic system allows smooth control for efficient material handling. This telehandler is designed to optimize productivity and reduce operational costs.',
         "noOfPastOwners": null,
-        "timeToSell": ""
+        "timeToSell": null,
     },
     {
         "equipmentId": 2074365,
@@ -1334,12 +1549,19 @@ const data = [
         "sellTerritory": [
             "IND"
         ],
-        "specificationsSummary": null,
-        "specifications": "",
-        "overview": "",
-        "performanceCapabilities": null,
+    "specificationsSummary": [
+      "Engine: JCB Dieselmax 444",
+      "Net Power: Approximately 74 kW (100 hp)",
+      "Maximum Lift Height: 11 meters",
+      "Maximum Lift Capacity: 3,000 kg",
+      "Hydraulic Flow: 110 l/min",
+      "Operating Weight: 7,300 kg",
+    ],
+        "specifications":null,
+        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "performanceCapabilities": 'The 530-110 Agri combines power, efficiency, and versatility, making it suitable for a wide range of tasks. Its robust build ensures durability even in demanding environments, while its precise hydraulic system allows smooth control for efficient material handling. This telehandler is designed to optimize productivity and reduce operational costs.',
         "noOfPastOwners": null,
-        "timeToSell": ""
+        "timeToSell": null,
     },
     {
         "equipmentId": 2072588,
@@ -1539,12 +1761,19 @@ const data = [
         "sellTerritory": [
             "IND"
         ],
-        "specificationsSummary": null,
-        "specifications": "",
-        "overview": "",
-        "performanceCapabilities": null,
+        "specificationsSummary": [
+      "Engine: JCB Dieselmax 444",
+      "Net Power: Approximately 74 kW (100 hp)",
+      "Maximum Lift Height: 11 meters",
+      "Maximum Lift Capacity: 3,000 kg",
+      "Hydraulic Flow: 110 l/min",
+      "Operating Weight: 7,300 kg",
+    ],
+        "specifications":null,
+        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "performanceCapabilities": 'The 530-110 Agri combines power, efficiency, and versatility, making it suitable for a wide range of tasks. Its robust build ensures durability even in demanding environments, while its precise hydraulic system allows smooth control for efficient material handling. This telehandler is designed to optimize productivity and reduce operational costs.',
         "noOfPastOwners": null,
-        "timeToSell": ""
+        "timeToSell": null
     }
 ]
 export default data;

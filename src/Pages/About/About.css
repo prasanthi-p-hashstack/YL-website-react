@@ -17,11 +17,12 @@
     margin-top: 15px;
 }
 
-.about-page-intro-background-vector {
+.about-page-background-vector {
     display: block;
     text-align: right;
     width: 100%;
     margin-top: 20px;
+    margin-bottom:-3px;
 }
 
 @media(max-width:1600px) {
@@ -42,7 +43,7 @@
         width: 100%;
     }
 
-    .background-vector3 {
+    .about-page-background-vector img{
         width: 60%;
     }
 
@@ -56,7 +57,7 @@
 
 /* brand values imagebox */
 .about-page-brand-values-outer-container {
-    margin-top: 60px;
+    /* margin-top: 60px; */
     background-color: #FAFAFA;
 }
 

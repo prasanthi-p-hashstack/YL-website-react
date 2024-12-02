@@ -1,0 +1,52 @@
+.add-to-quote-page {
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .add-to-quote-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-to-quote-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .add-to-quote-table th,
+  .add-to-quote-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .add-to-quote-product-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  .add-to-quote-quantity-input {
+    width: 50px;
+    text-align: center;
+  }
+  
+  .add-to-quote-delete-button {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .add-to-quote-delete-button:hover {
+    background-color: #d9363e;
+  }
+  
+  .add-to-quote-empty {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+    color: #777;
+  }
+  
